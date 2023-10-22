@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+.restart{
+    
+}
+.answ{
+    display: flex;
+}
+.button1{
+    position: fixed;
+    margin-left: 250px;
+}
+#keyboard{
+    margin-top: 40px;
+}
+#buttonHelp{
+    margin-top: 40px;
+}
+.imdiz-overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+        z-index: 99;
+        transition: all .3s;
+        visibility: hidden;
+        opacity: 0;
+}
+.imdiz-modal{
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+    background-color: #fff;
+    transition: all .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.txt {
+    text-align: center;
+
+}
